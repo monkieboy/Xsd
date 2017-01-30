@@ -12,5 +12,3 @@ let validate xml =
   validator.Validate(xml, xsd)
 
 let run () = validate RequestSample
-
-run()
